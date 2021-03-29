@@ -1,0 +1,8 @@
+C:\Users\lubom\Documents\Godot\HelloWorld\.mono\temp\bin\ExportDebug\Hello World.dll
+C:\Users\lubom\Documents\Godot\HelloWorld\.mono\temp\bin\ExportDebug\Hello World.pdb
+C:\Users\lubom\Documents\Godot\HelloWorld\.mono\temp\obj\ExportDebug\Hello World.csprojAssemblyReference.cache
+C:\Users\lubom\Documents\Godot\HelloWorld\.mono\temp\obj\ExportDebug\Hello World.AssemblyInfoInputs.cache
+C:\Users\lubom\Documents\Godot\HelloWorld\.mono\temp\obj\ExportDebug\Hello World.AssemblyInfo.cs
+C:\Users\lubom\Documents\Godot\HelloWorld\.mono\temp\obj\ExportDebug\Hello World.csproj.CoreCompileInputs.cache
+C:\Users\lubom\Documents\Godot\HelloWorld\.mono\temp\obj\ExportDebug\Hello World.dll
+C:\Users\lubom\Documents\Godot\HelloWorld\.mono\temp\obj\ExportDebug\Hello World.pdb
