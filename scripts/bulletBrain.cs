@@ -7,10 +7,13 @@ public class bulletBrain : Node
     Timer enemySpawner;
 
     // Difficulty system vars
-    public float maxSpawnInterval = 4;
-    public float minSpawnInterval = 0.5f;
-    public float spawnIntervalDecrease = 0.2f;
+    [Export] public float maxSpawnInterval = 4;
+    [Export] public float minSpawnInterval = 0.5f;
+    [Export] public float spawnIntervalDecrease = 0.2f;
     public float spawnInterval = 0;
+
+    [Export] public int playerBulletSpeed = 300;
+    [Export] public int enemyBulletSpeed = 350;
 
     public override void _Ready()
     {
@@ -49,6 +52,15 @@ public class bulletBrain : Node
         // Set animation
         var bulletSprite = (AnimatedSprite)bullet.GetNode("AnimatedSprite");
         bulletSprite.Play(animationName);
+
+        // Set bullet speed depending on animation name
+        if(animationName == "player")
+        {
+            bullet.speed = playerBulletSpeed;
+        } else if(animationName == "enemy")
+        {
+            bullet.speed = enemyBulletSpeed;
+        }
     }
 
     public void spawnExplosion(Vector2 spawnPosition, string animationName)
@@ -58,7 +70,7 @@ public class bulletBrain : Node
         GetNode("/root/game/bullets").AddChild(explosion);
         explosion.GlobalPosition = spawnPosition;
 
-        // Set animation
+        // Set and play animation
         var explosionSprite = (AnimatedSprite)explosion.GetNode("AnimatedSprite");
         explosionSprite.Play(animationName);
     }
