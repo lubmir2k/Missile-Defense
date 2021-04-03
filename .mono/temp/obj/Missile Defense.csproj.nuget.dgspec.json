@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lubom\\Documents\\Godot\\HelloWorld\\Missile Defense.csproj": {}
+    "C:\\Users\\lubom\\Documents\\Godot\\Missile-Defense\\Missile Defense.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lubom\\Documents\\Godot\\HelloWorld\\Missile Defense.csproj": {
+    "C:\\Users\\lubom\\Documents\\Godot\\Missile-Defense\\Missile Defense.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lubom\\Documents\\Godot\\HelloWorld\\Missile Defense.csproj",
+        "projectUniqueName": "C:\\Users\\lubom\\Documents\\Godot\\Missile-Defense\\Missile Defense.csproj",
         "projectName": "Missile Defense",
-        "projectPath": "C:\\Users\\lubom\\Documents\\Godot\\HelloWorld\\Missile Defense.csproj",
+        "projectPath": "C:\\Users\\lubom\\Documents\\Godot\\Missile-Defense\\Missile Defense.csproj",
         "packagesPath": "C:\\Users\\lubom\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lubom\\Documents\\Godot\\HelloWorld\\.mono\\temp\\obj\\",
+        "outputPath": "C:\\Users\\lubom\\Documents\\Godot\\Missile-Defense\\.mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lubom\\AppData\\Roaming\\NuGet\\NuGet.Config",

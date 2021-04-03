@@ -6,3 +6,11 @@ C:\Users\lubom\Documents\Godot\HelloWorld\.mono\temp\obj\ExportDebug\Missile Def
 C:\Users\lubom\Documents\Godot\HelloWorld\.mono\temp\obj\ExportDebug\Missile Defense.csproj.CoreCompileInputs.cache
 C:\Users\lubom\Documents\Godot\HelloWorld\.mono\temp\obj\ExportDebug\Missile Defense.dll
 C:\Users\lubom\Documents\Godot\HelloWorld\.mono\temp\obj\ExportDebug\Missile Defense.pdb
+C:\Users\lubom\Documents\Godot\Missile-Defense\.mono\temp\bin\ExportDebug\Missile Defense.dll
+C:\Users\lubom\Documents\Godot\Missile-Defense\.mono\temp\bin\ExportDebug\Missile Defense.pdb
+C:\Users\lubom\Documents\Godot\Missile-Defense\.mono\temp\obj\ExportDebug\Missile Defense.csprojAssemblyReference.cache
+C:\Users\lubom\Documents\Godot\Missile-Defense\.mono\temp\obj\ExportDebug\Missile Defense.AssemblyInfoInputs.cache
+C:\Users\lubom\Documents\Godot\Missile-Defense\.mono\temp\obj\ExportDebug\Missile Defense.AssemblyInfo.cs
+C:\Users\lubom\Documents\Godot\Missile-Defense\.mono\temp\obj\ExportDebug\Missile Defense.csproj.CoreCompileInputs.cache
+C:\Users\lubom\Documents\Godot\Missile-Defense\.mono\temp\obj\ExportDebug\Missile Defense.dll
+C:\Users\lubom\Documents\Godot\Missile-Defense\.mono\temp\obj\ExportDebug\Missile Defense.pdb
