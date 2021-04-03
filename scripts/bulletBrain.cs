@@ -34,12 +34,19 @@ public class bulletBrain : Node
         spawnEnemy();
     }
 
+    public void _on_cloudSpawner_timeout()
+    {
+        spawnCloud();
+    }
+
     public void spawnEnemy()
     {
         Vector2 spawnPosition = new Vector2(Convert.ToSingle(GD.RandRange(0, 1000)), -30);
         Vector2 targetPosition = new Vector2(Convert.ToSingle(GD.RandRange(0, 1000)), 550);
         SpawnBullet(spawnPosition, targetPosition, "enemy");
     }
+
+
 
     public void SpawnBullet(Vector2 spawnPosition, Vector2 targetPosition, string animationName)
     {
@@ -73,6 +80,20 @@ public class bulletBrain : Node
         // Set and play animation
         var explosionSprite = (AnimatedSprite)explosion.GetNode("AnimatedSprite");
         explosionSprite.Play(animationName);
+    }
+
+    public void spawnCloud()
+    {
+        var cloud = (AnimatedSprite)scenes.sceneCloud.Instance();
+        GetNode("/root/game/foreground").AddChild(cloud);
+
+        // Set random whole number for the animation
+        cloud.Frame = Convert.ToInt32(Math.Floor(GD.RandRange(0, 3)));
+
+        Vector2 spawnPosition = new Vector2(-100, Convert.ToSingle(GD.RandRange(0, 400)));
+        cloud.GlobalPosition = spawnPosition;
+        var randomScale = Convert.ToSingle(GD.RandRange(0, 1));
+        cloud.Scale = new Vector2(randomScale, randomScale);
     }
 
 }
