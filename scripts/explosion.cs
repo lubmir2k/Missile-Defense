@@ -4,10 +4,12 @@ using System;
 public class explosion : Area2D
 {
     bulletBrain bulletBrain;
+    player player;
 
     public override void _Ready()
     {
         bulletBrain = (bulletBrain)GetNode("/root/game/bullets/bulletBrain");
+       player = (player)GetNode("/root/game/player");
     }
 
     public void _on_AnimatedSprite_animation_finished()
@@ -23,6 +25,7 @@ public class explosion : Area2D
         {
             bulletBrain.spawnExplosion(bullet.GlobalPosition, "enemy");
             bullet.QueueFree();
+            player.addScore();
         }
     }
 }
